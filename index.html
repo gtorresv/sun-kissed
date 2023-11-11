@@ -12,9 +12,11 @@
         <h1>Weather Dashboard</h1>
     </header>
     <aside>
-        <p>Search for a City: </p>
-        <div class="box">Search box</div>
-        <button class="search-button">Search</button>
+        <form id="search-form">
+            <p>Search for a City: </p>
+            <input class="box" placeholder="Enter city name"/>
+            <button class="search-button">Search</button>
+        </form>
     </aside>
 
     <section>
@@ -22,7 +24,8 @@
     </section>
 
     <section>
-        <p>5 Day Forcast: </p>
+        <p>5 Day Forecast: </p>
+        <div id="5-day-results"></div>
     </section>
     <script src="./script.js"></script>   
 </body>
