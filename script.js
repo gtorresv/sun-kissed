@@ -64,7 +64,7 @@ function displayCurrentWeather(data) {
 }
 
 function displayFiveDayForecast(data) {
-    for (let i = 1; i < data.list.length; i+=8) {
+    for (let i = 2; i < data.list.length; i+=8) {
         var resultCard = document.createElement('div');
         resultCard.classList.add('card');
 

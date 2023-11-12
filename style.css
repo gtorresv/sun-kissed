@@ -12,6 +12,70 @@ header {
  }
 
  input {
-    height: 25px;
-    border-radius: 2px;
+    width: 30%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
  }
+ .search-form {
+    margin: 20px 0;
+ }
+
+ .search-button {
+    width: 25%;
+    background-color: #2e86c1;
+    color: #fff;
+    margin-top: 2px;
+    padding: 9px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+/* city results display in the center */
+ .city-result {
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 16px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+ }
+
+ .city-button {
+    display: flex;
+    width: 22%;
+    justify-content: center;
+    background-color: #90b8cf;
+    color: #fff;
+    padding: 5px 10px;
+    margin: 12px;
+    margin-right: 9px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.forecast-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    margin-top: 20px;
+}
+
+/* This styles the 5 day forecast cards */
+.card {
+    width: 25%; 
+    background-color: #7bc7dd;
+    color: #fff;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
