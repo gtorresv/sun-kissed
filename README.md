@@ -6,10 +6,18 @@ The Weather Dashboard is a web application designed for travelers who want to pl
 
 ## Usage
 
-To use the Weather Dashboard, you can access it by entering the web app url: 
+To use the Weather Dashboard, you can access it by entering the web app url: https://gtorresv.github.io/sun-kissed/
 
 You will see a weather dashboard with form inputs. In the search input field, enter the name of a city you want to check the weather for. You can click the "Search" button or press Enter. After that, the application will fetch and display the current weather conditions for the selected city, including the city name, date, an icon representation of weather conditions, temperature, humidity, and wind speed. There will also be a 5-day forecast that displays the date, an icon representation of weather conditions, temperature, wind speed, and humidity for the selected city. The selected city is added to the search history as a button, allowing you to quickly access its weather information in the future.To view the weather for a previously searched city, click on the city's name in the search history. The application will again present you with the current and future conditions for that city. With the Weather Dashboard, you can efficiently plan your trips, stay updated on weather conditions, and access historical searches with ease.
 
 The following screenshot represents the weather app after a city search: 
 
 ![Weather App Example](./assets/images/weather-city-result.png)
+
+## Credits
+
+In order to fetch the forecast by day instead of every 3 hours I got insight by following [StackOverflow](https://stackoverflow.com/questions/59935038/openweathermap-api-forecast-for-only-days).
+
+## License
+
+Please refer to the MIT License in the repo.
