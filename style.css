@@ -1,7 +1,17 @@
 header {
-    background-color: rgb(29, 100, 231);
-    text-align: center;
+    margin: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    background-color: #2e86c1;
 }
  h1 {
     color: #fff;
+    justify-content: center;
+ }
+
+ input {
+    height: 25px;
+    border-radius: 2px;
  }
